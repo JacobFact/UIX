@@ -55,7 +55,7 @@
 				scene.fog = new THREE.FogExp2( 0x000000, 0.035 );
 				mixer = new THREE.AnimationMixer( scene );
 				var loader = new THREE.JSONLoader();
-				loader.load( 'UIX/monster.js', function ( geometry, materials ) {
+				loader.load( 'UIX\monster.js', function ( geometry, materials ) {
 					// adjust color a bit
 					var material = materials[ 0 ];
 					material.morphTargets = true;
